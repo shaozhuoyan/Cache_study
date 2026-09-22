@@ -30,4 +30,4 @@ mydata/
       Assertion `flags.isSet(VALID_ADDR)' failed
 我了解后说是指令取指令这里有问题，就是CPU的指令到L1 icache这一步，icache发现这个指令的地址无效，然后就卡住了
 
-已经通过调大ICACHE的各种参数来解决，但具体什么样的参数对应多大的运算量还未计算）
+已经通过调大ICACHE的各种参数来解决，但具体什么样的参数对应多大的运算量还未计算
